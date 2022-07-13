@@ -1,0 +1,67 @@
+Sr. No.,Component Name,EndPoint,Current Deployed(image)-Version,Deployed Date,Deployed By , Branch Name
+1,c2c_device_operations_api,https://reg.c2c-it.qualcomm.com/device/swagger-ui.html,4.1.0-SNAPSHOT_2204281223,28th April 2022,Abhi,develop
+2,c2c_dm_deviceprovisioningservice,https://reg.c2c-it.qualcomm.com/device-provisioning-service/v1/swagger-ui.html,4.1.0-SNAPSHOT_2204271121,28th April 2022,Abhi,release_sprint18_1.0
+3,c2c_commcore_routeconfig_api,https://reg.c2c-it.qualcomm.com/routeconfig/swagger-ui.html,4.1.0-SNAPSHOT_2204280810,28th April 2022,Abhi,release_sprint18_1.0
+4,c2c_commcore_c2drequest_api,https://reg.c2c-it.qualcomm.com/c2drequest/swagger-ui.html,4.1.0-SNAPSHOT_2204271115,28th April 2022,Abhi,release_sprint18_1.0
+5,c2c_dm_devicerequestprocessor,https://reg.c2c-it.qualcomm.com/device-request-processor/v1/swagger-ui.html,4.1.0-SNAPSHOT_2205020901,28th April 2022,Abhi,release_sprint18_1.0
+6,c2c_dm_deviceregistrationservice-regional,https://reg.c2c-it.qualcomm.com/device-registration-service/v1/swagger-ui.html,4.1.0-SNAPSHOT_2204291047,28th April 2022,Abhi,release_sprint18_1.0
+7,c2c_base_configserver,https://reg.c2c-it.qualcomm.com/configserver/,3.1.0-SNAPSHOT_2204281152,28th April 2022,Abhi,develop
+8,c2c_resilience_service_api,https://reg.c2c-it.qualcomm.com/resilience-service/swagger-ui.html,2.1.0-SNAPSHOT_2204281157,28th April 2022,Abhi,develop
+9,c2c-command-control-api,http://reg.c2c-it.qualcomm.com/command-request/swagger-ui.html,2.2.0-SNAPSHOT_2204281157,28th April 2022,Abhi,develop
+10,c2c-dm-chipset-api,http://reg.c2c-it.qualcomm.com/chipsetapi/swagger-ui.html,2.1.0-SNAPSHOT_2204271116,28th April 2022,Abhi,release_sprint18_1.0
+11,c2c-license-management-c-api,http://reg.c2c-it.qualcomm.com/lmsc/swagger-ui ,3.2.0-SNAPSHOT_2204271122,28th April 2022,Abhi,release_sprint18_1.0
+12,c2c-license-management-q-api,http://reg.c2c-it.qualcomm.com/lmsq/swagger-ui ,3.2.0-SNAPSHOT_2204271208,28th April 2022,Abhi,release_sprint18_1.0
+13,c2c-ota-db-operations-api,http://reg.c2c-it.qualcomm.com/ota-db-api/swagger-ui.html ,1.1.0-SNAPSHOT_2204281152,28th April 2022,Abhi,develop
+14,c2c-ota-service-api,http://reg.c2c-it.qualcomm.com/ota-services/swagger-ui.html ,3.1.0-SNAPSHOT_2204281136,28th April 2022,Abhi,release_sprint18_1.0
+15,c2c-partition-service-api,http://reg.c2c-it.qualcomm.com/partition-service/swagger-ui.html ,2.2.0-SNAPSHOT_2204281157,28th April 2022,Abhi,release_sprint18_1.0
+16,c2c-service-management-api,http://reg.c2c-it.qualcomm.com/smp-server/swagger-ui.html,1.6_2204280915,28th April 2022,Abhi,release_sprint18_1.0
+17,c2c-service-management-ui,https://smp-ui.c2c-it.qualcomm.com,16,28th April 2022,Abhi,release_sprint18_1.0
+18,c2c-vehicle-operations-api,http://reg.c2c-it.qualcomm.com/vehicle/swagger-ui.html ,4.2.0-SNAPSHOT_2204281136,28th April 2022,Abhi,develop
+19,smp-adapter-api,http://reg.c2c-it.qualcomm.com/smp-adapter/swagger-ui.html ,3.2.0-SNAPSHOT_2204290440,28th April 2022,Abhi,release_sprint18_1.0
+20,c2c_commcore_c2dsender_pro-v1,,3.1.0-SNAPSHOT_2204271115,28th April 2022,Abhi,release_sprint18_1.0
+21,c2c_commcore_msgdispatcher_pro,,4.1.0-SNAPSHOT_2204271115,28th April 2022,Abhi,release_sprint18_1.0
+22,c2c_commcore_msgstorage_pro,,3.1.0-SNAPSHOT_2204271115,28th April 2022,Abhi,release_sprint18_1.0
+23,c2c_resilience_listener_pro,,2.2.0-SNAPSHOT_2204281153,28th April 2022,Abhi,develop
+24,c2c_resilience_retry_pro,,2.2.0-SNAPSHOT_2204281157,28th April 2022,Abhi,develop
+25,c2c_resilience_query_pro,,2.2.0-SNAPSHOT_2204281153,28th April 2022,Abhi,develop
+26,c2c-command-control-pro,,2.2.0-SNAPSHOT_2204281157,28th April 2022,Abhi,release_sprint18_1.0
+27,c2c-cop-retry-pro,,1.1.0-SNAPSHOT,28th April 2022,Abhi,release_sprint18_1.0
+28,c2c-dm-chipsetonboarding-pro,,4.3.0-SNAPSHOT_2204271116,28th April 2022,Abhi,release_sprint18_1.0
+29,c2c-license-management-pro,,3.1.0-SNAPSHOT_2204281314,28th April 2022,Abhi,release_sprint18_1.0
+30,c2c-lms-license-retry-pro,,2.1.0-SNAPSHOT_2204281315,28th April 2022,Abhi,release_sprint18_1.0
+31,c2c-ota-processor-pro,,2.1.0-SNAPSHOT_2204281152,28th April 2022,Abhi,develop
+32,c2c-state-operation-pro,,4.1.0-SNAPSHOT_2204281223,28th April 2022,Abhi,develop
+33,c2c-lms-license-health-check-pro,,4.1.0-SNAPSHOT_2204290626,28th April 2022,Abhi,release_sprint18_1.0
+34,c2c_resilience_liquibase_project,,2.1.0-SNAPSHOT,29th April 2022,Abhi,develop
+35,c2c_dm_registration_service_regional_db,,4.1.0-SNAPSHOT,28th April 2022,Abhi,release_sprint18_1.0
+36,c2c_dm_provision_service_db,,4.1.0_SNAPSHOT,29th April 2022,Abhi,
+37,c2c_commcore_routeconfig_db,,4.1.0-SNAPSHOT,28th April 2022,Abhi,release_sprint18_1.0
+38,c2c_commcore_msgstorage_db,,2.1.0-SNAPSHOT,28th April 2022,Abhi,release_sprint18_1.0
+39,c2c_ota_liquibase_project,,1.2.0-SNAPSHOT,29th April 2022,Abhi,release_sprint18_1.0
+40,c2c_command_liquibase_project,,2.2.0-SNAPSHOT,29th April 2022,Abhi,release_sprint18_1.0
+41,c2c_partition_liquibase_project,,2.1.0-SNAPSHOT,28th April 2022,Abhi,develop
+42,c2c_dm_chipsetonboarding_db,,3.1.0-SNAPSHOT,28th April 2022,Abhi,release_sprint18_1.0
+43,c2c_license_management_db,,3.1.0-SNAPSHOT,28th April 2022,Abhi,release_sprint18_1.0
+44,c2c_license_management_q_db,,2.1.0-SNAPSHOT,28th April 2022,Abhi,release_sprint18_1.0
+45,c2c-connectivity-service,http://reg.c2c-it.qualcomm.com/connectivity/swagger-ui.html ,0.1.0-SNAPSHOT_2204291452,29th April 2022,Abhi,develop
+46,c2c-dm-navigation-service,,1.0.0_2204281314,29th April 2022,Abhi,develop
+47,c2c-dm-notificationservice,,1.0.0_2204281314,29th April 2022,Abhi,develop
+48,c2c-dm-telemetry-persistence-service,http://reg.c2c-it.qualcomm.com/telemetry-persistence-service/v1/swagger-ui.html ,1.0.0_2204281314,29th April 2022,Abhi,develop
+49,c2c-dm-telemetry-service,,1.0.0_2204281314,29th April 2022,Abhi,develop
+50,c2c-sota-service-api,http://reg.c2c-it.qualcomm.com/sota-service/swagger-ui.html ,1.2.0-SNAPSHOT_2204281158,29th April 2022,Abhi,release_sprint18_1.0
+51,c2c-campaign-builder-pro,,0.1.0-SNAPSHOT_2204271120,29th April 2022,Abhi,release_sprint18_1.0
+52,c2c_commcore_c2dsender_pro-v2,,4.1.0-SNAPSHOT_2204271116,29st April 2022,Abhi,release_sprint18_1.0
+53,c2c-sku-request-pro,,0.1.0-SNAPSHOT_2204271123,29nd April 2022,Abhi,release_sprint18_1.0
+54,c2c-sku-response-pro,,0.2.0-SNAPSHOT_2204290450,29rd April 2022,Abhi,release_sprint18_1.0
+55,c2c-sota-processor-pro,,1.2.0-SNAPSHOT_2204281158,29th April 2022,Abhi,release_sprint18_1.0
+56,c2c-vehicle-state-pro,,0.1.0-SNAPSHOT_2204271123,29th April 2022,Abhi,release_sprint18_1.0
+,,,,,,
+,,,,,,
+,Caroa API,https://carota-api.c2c-it.qualcomm.com/,,,,
+,Caroa Admin,https://carota-admin.c2c-it.qualcomm.com/,,,,
+,Caroa Files,https://carota-files.c2c-it.qualcomm.com/,,,,
+,,,,,,
+,,,,,,
+1,IOT component,env.regional.partition.iot.endpoint=am1ck51fe3zjt-ats.iot.us-west-2.amazonaws.com,,,,
+2,MySQL,c2c-usw2-intg-reg-dm-rds-database-mysql.c5yzu2op94e8.us-west-2.rds.amazonaws.com    ,,,,
+3,PostgreSQL,c2c-usw2-intg-reg-dm-rds-database-psql.c5yzu2op94e8.us-west-2.rds.amazonaws.com,,,,

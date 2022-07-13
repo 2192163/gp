@@ -1,0 +1,62 @@
+
+	{% extends "main.html" %}
+    {{ super() }}
+
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+  
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/main.2e1f6369.min.css' | url }}">
+
+  	{% block header %}
+		{% include "partials/documentheader.html" %}
+	{% endblock %}
+	<div class="md-container" data-md-component="container">
+			{% block tabs %}{% endblock %}
+			
+			<main class="md-main" data-md-component="main">
+				<div class="md-main__inner md-grid">
+						{% block site_nav %}
+							<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" {{ hidden }}>
+								<div class="md-sidebar__scrollwrap">
+								  <div class="md-sidebar__inner">
+									{% include "partials/toc.html" %}
+								  </div>
+								</div>
+							</div>
+						{% endblock %}
+						<div class="md-content" data-md-component="content">
+								<article class="md-content__inner md-typeset">
+								  {% block content %}
+									{% if page.edit_url %}
+									  <a href="{{ page.edit_url }}" title="{{ lang.t('edit.link.title') }}" class="md-content__button md-icon">
+										{% include ".icons/material/pencil.svg" %}
+									  </a>
+									{% endif %}
+									{% if not "\x3ch1" in page.content %}
+									  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+									{% endif %}
+									{{ page.content }}
+									{% if page and page.meta %}
+									  {% if page.meta.git_revision_date_localized or
+											page.meta.revision_date
+									  %}
+										{% include "partials/source-file.html" %}
+									  {% endif %}
+									{% endif %}
+								  {% endblock %}
+								  {% block disqus %}
+									{% include "partials/integrations/disqus.html" %}
+								  {% endblock %}
+								</article>
+						</div>
+				</div>
+			</main>
+		{% block footer %} 
+			{% include "partials/footer.html" %}
+        {% endblock %}	
+		
+	</div>
+  
+
+		  
+
+		  

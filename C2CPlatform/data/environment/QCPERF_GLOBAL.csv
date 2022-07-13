@@ -1,0 +1,20 @@
+Sr. No.,Component Name,EndPoint ,Current Deployed-Version,Deployed By, Deployed Date,Branch Name
+1,c2c_device_global_operations_api,https://perfgbl.c2c-test.qualcomm.com/device-global/swagger-ui.html,4.0.0_2204041358,Abhilash,05th April 2022,release_Q12022_4.0.0
+2,c2c_base_cognito_token_generator,https://perfgbl.c2c-test.qualcomm.com/cognito-token/swagger-ui.html,4.0.0_2204041415,Abhilash,05th April 2022,"	release_Q12022_4.0.0"
+3,c2c_dm_certificatemanager,https://perfgbl.c2c-test.qualcomm.com/certificate-manager/v1/swagger-ui.html,4.0.0_2204041400,Abhilash,05th April 2022,release_Q12022_4.0
+4,c2c_dm_deviceprovisioningqueryservice,https://perfgbl.c2c-test.qualcomm.com/device-provisioning-query-service/v1/swagger-ui.html,4.0.0_2204041403,Abhilash,05th April 2022,release_Q12022_4.0
+5,c2c_commcore_routeconfig_api,https://perfgbl.c2c-test.qualcomm.com/routeconfig/swagger-ui.html,4.0.0_2204050349,Abhilash,05th April 2022,release_Q12022_4.0
+6,c2c_commcore_c2drequest_api,https://perfgbl.c2c-test.qualcomm.com/c2drequest/swagger-ui.html,4.0.0_2204050350,Abhilash,05th April 2022,release_Q12022_4.0
+7,c2c_dm_devicerequestprocessor,https://perfgbl.c2c-test.qualcomm.com/device-request-processor/v1/swagger-ui.html,4.0.0_2204050352,Abhilash,05th April 2022,release_Q12022_4.0
+8,c2c_dm_deviceregistrationservice,https://perfgbl.c2c-test.qualcomm.com/device-registration-service/v1/swagger-ui.html,4.0.0_2204050406,Abhilash,05th April 2022,release_Q12022_4.0
+9,c2c_base_configserver,https://perfgbl.c2c-test.qualcomm.com/configserver/,3.0.0_2204041354,Abhilash,04th April 2022,release_Q12022_3.0.0
+10,c2c_resilience_service_api,https://perfgbl.c2c-test.qualcomm.com/resilience-service/swagger-ui.html,2.0.0_2204050354,Abhilash,05th April 2022,"	release_Q12022_2.0.0"
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+1,IOT ,a2wmamsgqsa3iq-ats.iot.us-east-1.amazonaws.com,,,,
+,,,,,,
+,Database,,,,,
+1,PSQL,c2c-use1-perf-gbl-dm-rds-database-psql.co0vsmnvys1x.us-east-1.rds.amazonaws.com,,,,

@@ -1,0 +1,16 @@
+Sr. No.,Component Name,EndPoint,Deployed Date,Deployed by,Version,Branch Name
+1,c2c_device_global_operations_api,https://gbl.c2c-demo-2.qualcomm.com/device-global/swagger-ui.html,15th Dec 2021,Vivek,2.2.0-SNAPSHOT,release_sprint12_1.0 
+2,c2c_base_cognito_token_generator,NA,25th Nov 2021,Silu,2.1.0-SNAPSHOT_2111151227,
+3,c2c_dm_certificatemanager,https://gbl.c2c-demo-2.qualcomm.com/certificate-manager/v1/swagger-ui.html,25th Nov 2021,Silu,1.5.0-SNAPSHOT_2111150909,
+4,c2c_dm_deviceprovisioningqueryservice,https://gbl.c2c-demo-2.qualcomm.com/device-provisioning-query-service/v1/swagger-ui.html,25th Nov 2021,Silu,1.5.0-SNAPSHOT_2111150910,
+5,c2c_commcore_routeconfig_api,https://gbl.c2c-demo-2.qualcomm.com/routeconfig/swagger-ui.html,25th Nov 2021,Silu,1.4.0-SNAPSHOT_2111151105,
+6,c2c_commcore_c2drequest_api,https://gbl.c2c-demo-2.qualcomm.com/c2drequest/swagger-ui.html,25th Nov 2021,Silu,1.3.0-SNAPSHOT_2111151107,
+7,c2c_dm_devicerequestprocessor,https://gbl.c2c-demo-2.qualcomm.com/device-request-processor/v1/swagger-ui.html,25th Nov 2021,Silu,1.5.0-SNAPSHOT_2111150911,
+8,c2c_dm_deviceregistrationservice,https://gbl.c2c-demo-2.qualcomm.com/device-registration-service/v1/swagger-ui.html,25th Nov 2021,Silu,1.5.0-SNAPSHOT_2111150907,
+9,c2c-resilience-service-api,https://gbl.c2c-demo-2.qualcomm.com/resilience-service/swagger-ui.html,25th Nov 2021,Silu,0.1.0-SNAPSHOT_2111181538,
+10,c2c_base_configserver,https://gbl.c2c-demo-2.qualcomm.com/configserver/test/default/demo-global,25th Nov 2021,Silu,1.0.1,
+,,,,,,
+1,IOT,a3hm0ngzhbm1e4-ats.iot.us-west-1.amazonaws.com,25th Nov 2021,,,
+,,,,,,
+1,PostgreSQL DB,c2c-usw1-demo-gbl-dm-rds-database-psql.cqmrsirislq5.us-west-1.rds.amazonaws.com,,,,
+

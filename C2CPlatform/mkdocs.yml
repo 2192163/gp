@@ -1,0 +1,208 @@
+site_name: Car-to-Cloud Platform
+
+repo_name: c2c_systemwiki
+repo_url: https://github.com/Github-Enterpirse-India/c2c_systemwiki
+edit_uri: "https://github.com/Github-Enterpirse-India/c2c_systemwiki/edit/main/C2CPlatform/docs"
+
+nav:
+    - 'Home': 'index.md'
+    - 'System': 
+        - 'Product Overview': 'features//productoverview.md'
+        - 'Terms & Definitions': 'features//terminologies.md'
+        - 'Lifecycle Management': 
+            - 'Registration': 'features//deviceregistration.md'
+            - 'Provisioning': 'features//deviceprovisioning.md'   
+        - 'Service Management':
+            - 'Soft SKU': 'features//softsku.md'
+            - 'Packages & Services': 'features//packagesandservices.md'
+            - 'OTA': 'features//ota.md'
+            - 'Connectivity': 'features//simintegration.md'
+        - 'Analytics': 'features//dataanalytics.md'
+    - 'Technical': 
+        - 'Overview': 'architecture//architectureoverview.md'
+        - 'Architecture':
+             - 'Device': 'architecture//devicearchitecture.md'
+             - 'Cloud': 'architecture//cloudarchitecture.md'
+             - 'Security': 'architecture//cloudsecurity.md'
+             - 'Database': 'architecture//databasedictionary.md'
+             - 'Deployment':
+                - 'Design': 'architecture//deploymentarchitecture.md'
+                - 'Provisioning': 'architecture//provisioning.md'
+        - 'C2C Edge':
+             - 'Edge Hub': 'c2cedge//edgehub.md'
+             - 'Device Manager': 'c2cedge//devicemanager.md'
+             - 'SKU Manager': 'c2cedge//skumanager.md'
+             - 'SKU Service': 'c2cedge//skuservice.md'
+             - 'OTA Manager': 'c2cedge//otamanager.md'
+             - 'Error codes': 'c2cedge//deviceerrordictionary.md'
+             - 'Versioning': 'c2cedge//artifactversioning.md'
+             - 'Device Provisioning': 'c2cedge//StateDiagram.md'
+        - 'C2C Cloud':
+             - 'Base framework': 
+                - 'C2C Common': 'c2ccloud//baseframework//c2ccommon.md'
+                - 'Iot Adapter': 'c2ccloud//baseframework//iotadapter.md'
+                - 'Iot MQTT Adapter': 'c2ccloud//baseframework//iotmqttadapter.md'
+                - 'Kinesis Adapter': 'c2ccloud//baseframework//kinesisadapter.md'
+                - 'KMS Adapter': 'c2ccloud//baseframework//kmsadapter.md'
+                - 'Queue Adapter': 'c2ccloud//baseframework//queueadapter.md'
+                - 'S3 Storage Adapter': 'c2ccloud//baseframework//s3adapter.md'
+                - 'Config Server': 'c2ccloud//baseframework//configserver.md'
+                - 'Resilience framework': 'c2ccloud//baseframework//resillienceframework.md'
+             - 'Communication Core': 
+                - 'Overview': 'c2ccloud//communicationcore//comcoredesign.md'
+                - 'Message dispatcher': 'c2ccloud//communicationcore//messagedispatcher.md'
+                - 'Message storage processor': 'c2ccloud//communicationcore//messagestorageprocessor.md'
+                - 'C2D Sender': 'c2ccloud//communicationcore//c2dsender.md'
+                - 'C2D Request API': 'c2ccloud//communicationcore//c2drequestapi.md'
+                - 'Route Config API': 'c2ccloud//communicationcore//routeconfigapi.md'
+             - 'Device Management':
+                - 'Registration': 'c2ccloud//devicemanagement//deviceregistration.md'
+                - 'Provisioning': 'c2ccloud//devicemanagement//deviceprovisioning.md'                
+                - 'Certificate Management': 'c2ccloud//devicemanagement//certificatemanagement.md'
+                - 'Device APIs': 'c2ccloud//devicemanagement//deviceapis.md'
+                - 'Vehicle APIs': 'c2ccloud//devicemanagement//vehicleapis.md'
+                - 'State Processor': 'c2ccloud//devicemanagement//stateprocessor.md'
+             - 'Service Management':
+                - 'Overview': 'c2ccloud//servicemanagement//smpdesign.md'
+                - 'Chipset Onboarding Processor': 'c2ccloud//servicemanagement//cop.md'
+                - 'COP Retry Processor': 'c2ccloud//servicemanagement//copretry.md'
+                - 'License Management System': 'c2ccloud//servicemanagement//lms.md'
+                - 'LMS Retry Processor': 'c2ccloud//servicemanagement//lmsretry.md'
+                - 'License Health Check Processor': 'c2ccloud//servicemanagement//licencehealthcheckpro.md'
+                - 'SMP Backend APIs': 'c2ccloud//servicemanagement//smpbackendapis.md'
+                - 'SMP UI': 'c2ccloud//servicemanagement//smpui.md'
+             - 'Command & Control':
+                - 'Overview': 'c2ccloud//commandandcontrol//ccdesign.md'
+                - 'C2C Command processor': 'c2ccloud//commandandcontrol//c2ccommandprocessor.md'
+                - 'Command APIs': 'c2ccloud//commandandcontrol//commandapis.md'
+             - 'OTA':
+                - 'OTA Adapter': 'c2ccloud//ota//otaadapter.md'
+             - 'Telemetry':
+                - 'Overview': 'c2ccloud//telemetry//telemetrydesign.md'
+                - 'Navigation Processor': 'c2ccloud//telemetry//navigationprocessor.md'
+                - 'Telemetry Processor': 'c2ccloud//telemetry//telemetryprocessor.md'
+                - 'Persistence Processor': 'c2ccloud//telemetry//persistenceprocessor.md'
+                - 'APIs': 'c2ccloud//telemetry//telemetryapis.md'
+             - 'Connectivity':
+                - 'Overview': 'c2ccloud//connectivity//connectivityoverview.md'
+             - 'Analytics':
+                - 'Analytics Pipeline': 'c2ccloud//analyticspipeline//C2C_Analytics_Design_Document.md'
+                - 'Unified Analytics Dashboard': 'c2ccloud//unifiedanalytics//sdd.md'
+        - 'Error Codes': 'architecture//errordictionary.md'
+        - 'Message Contracts': 
+            - 'C2C Message': 'messagestructure//c2cmessageformat.md'
+            - 'Message Optimization': 'messagestructure//OptimizeC2cmessageformat.md' 
+            - 'Acknowledgement': 'messagestructure//c2cacknowledgement.md'
+            - 'Registration': 'messagestructure//registration.md'
+            - 'Provisioning': 'messagestructure//provisioning.md'
+            - 'Chipset':
+                - 'Onboarding': 'messagestructure//chipsetonboarding.md'
+                - 'License Install': 'messagestructure//licenseinstall.md'
+                - 'Auditing': 'messagestructure//licenseauditing.md'
+                - 'Additional Info' : 'messagestructure//chipsetadditionalinformation.md'
+                - 'Packages' : 'messagestructure//smppackages.md'
+                - 'Services' : 'messagestructure//smpservices.md'
+                - 'SMP Notifications' : 'messagestructure//smpnotifications.md'
+                - 'SMP Configurations' : 'messagestructure//smpconfiguration.md'
+            - 'OTA': 'messagestructure//otaoperations.md'
+            - 'Command': 'messagestructure//commandmessage.md'
+            - 'Telemetry':
+                - 'Information': 'messagestructure//informationtelemetrymessage.md'          
+                - 'Driver Information': 'messagestructure//driverinformationtelemetry.md'          
+                - 'Navigation': 'messagestructure//navigationmessage.md'          
+                - 'Telemetry': 'messagestructure//telemetrymessage.md'          
+                - 'Body Status': 'messagestructure//statustelemetrymessage.md'          
+    - 'Demo': 
+        - 'CES 2022': 'demo//ces2022.md'
+    - 'Environments': 
+        - 'DevOps': 'environment//environment.md'
+        - 'Setup': 'environment//setupsteps.md'
+        - 'Cognizant':
+            - 'Dev': 'environment//devenv.md'
+            - 'QA': 'environment//qaenv.md'
+            - 'Demo': 'environment//ctsdemoenv.md'
+        - 'QC':
+            - 'Demo': 'environment//qcdemoenv.md'
+            - 'Dev': 'environment//qcdevenv.md'
+            - 'QA': 'environment//qcqaenv.md'
+            - 'Perf': 'environment//qcperfenv.md'
+    - 'Manuals':
+        - 'Standards': 'manuals//standards.md'
+        - 'Practices': 'manuals//practices.md'
+        - 'Compliance': 'manuals//compliance.md'
+
+markdown_extensions:
+    - abbr
+    - pymdownx.tabbed
+    - pymdownx.superfences
+    - pymdownx.highlight:
+        auto_title: True 
+        linenums: True
+    - pymdownx.details
+    - pymdownx.magiclink
+    - pymdownx.snippets:
+          base_path: includes
+          auto_append: ["abbreviations.md"]
+    - admonition
+    - attr_list
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+    - markdown_include.include:
+        base_path: docs
+      
+extra_css:
+    - stylesheets/extra.css
+  
+extra_javascript:
+
+theme: 
+    name: material
+    custom_dir: overrides
+    palette:
+       primary: black
+       secondary: red
+    font:
+        text: ArialMT
+       #text: Work Sans
+       #text: ubuntu
+       
+    features:
+       - navigation.tabs
+       - navigation.instant
+       - navigation.top
+
+plugins:
+     - search:
+     - git-revision-date-localized:
+          type: iso_datetime
+          locale: en
+          fallback_to_build_date: false
+     - table-reader: 
+          data_path: "data/environment"
+     - markdownextradata:
+          data: data/environment/CTSDEV_GLOBAL.csv
+     - print-site:
+          add_table_of_contents: false
+          enumerate_headings: false
+          enumerate_figures: false     
+     
+extra:
+      generator: false 
+      version:
+         provider: mike
+         default: latest
+      c2cdocuments:
+         repositoryBase: https://github.com/Github-Enterpirse-India/c2c_systemwiki/tree/main/Documents
+         compliance: /Compliance/
+         cloudComponents: /CloudComponents/
+         deviceComponents: /DeviceComponents/
+         devops: /DevOps/
+         platform: /Platform/
+         standards: /Standards/
+         templates: /_Templates_/
+      issueapiurl: https://api.github.com/repos/Github-Enterpirse-India/c2c_systemwiki/issues/
+      issuenum: 3 
+      issuecommentsaccesstoken: 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   
+copyright: Copyright &copy; 2021
+

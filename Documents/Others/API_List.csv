@@ -1,0 +1,3 @@
+RouteAPIs,https://petstore.swagger.io/v2/swagger.json
+C2DAPIURL,http://a411a4294788a465dbc7b351c24f864b-481415416.us-west-1.elb.amazonaws.com:8080/v2/api-docs
+SMPBackend URL,http://c2c-dev-reg-smp-api-env.us-west-1.elasticbeanstalk.com/v3/api-docs

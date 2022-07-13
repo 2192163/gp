@@ -1,0 +1,37 @@
+Sr. No.,Component Name,EndPoint,Deployed Current Version,Deployed Date,Release branch
+1,c2c_commcore_routeconfig_api,https://perfreg2.c2c-uat.qualcomm.com/routeconfig/swagger-ui.html#/,4.1.0-SNAPSHOT_2203150943,15th March 2022,develop
+2,c2c_dm_devicerequestprocessor,https://perfreg2.c2c-uat.qualcomm.com/device-request-processor/v1/swagger-ui.html#/,4.1.0-SNAPSHOT_2203161330,16th March 2022,develop
+3,c2c_vehicle_operations_api,https://perfreg2.c2c-uat.qualcomm.com/vehicle/swagger-ui.html#/,4.2.0-SNAPSHOT_2205130737,13th May 2022,release_sprint18_1.0
+4,c2c_device_operations_api,https://perfreg2.c2c-uat.qualcomm.com/device-regional/swagger-ui.html#/,4.1.0-SNAPSHOT_2205130732,13th May 2022,release_sprint16_1.0
+5,c2c_dm_locationtelemetryservice,https://perfreg2.c2c-uat.qualcomm.com/location-telemetry-service/v1/swagger-ui.html#/,1.2.0-SNAPSHOT_2110050800,05th Oct 2021,
+6,c2c_dm_deviceprovisioningservice,https://perfreg2.c2c-uat.qualcomm.com/device-provisioning-service/v1/swagger-ui.html#/,4.1.0-SNAPSHOT_2203151500,15th March 2022,develop
+7,c2c_commcore_c2drequest_api,https://perfreg2.c2c-uat.qualcomm.com/c2drequest/swagger-ui.html#/,3.1.0-SNAPSHOT_2203151035,15th March 2022,develop
+8,c2c_license_management_system_api,https://perfreg2.c2c-uat.qualcomm.com/api/doc,1.3.0-SNAPSHOT_2110050806,05th Oct 2021,
+9,c2c_service_management_request_api,https://perfreg2.c2c-uat.qualcomm.com/smp-request-api/swagger-ui.html#/,1.3.0-SNAPSHOT_2110050858,05th Oct 2021,
+10,c2c_dm_chipset_api,https://perfreg2.c2c-uat.qualcomm.com/chipsetapi/swagger-ui.html#/,2.1.0-SNAPSHOT_2203151535,15th March 2022,develop
+11,c2c_ota_service_api,https://perfreg2.c2c-uat.qualcomm.com/ota-services/swagger-ui.html#/,2.2.0-SNAPSHOT_2203151210,15th March 2022,develop
+12,c2c_dm_deviceregistrationservice_regional,https://perfreg2.c2c-uat.qualcomm.com/device-registration-service/v1/swagger-ui.html#/,0.1.0-SNAPSHOT_2110050843,05th Oct 2021,
+13,c2c_service_management_api,https://perfreg2.c2c-uat.qualcomm.com/smp-server/swagger-ui,0.0.1-SNAPSHOT_2110050854,05th Oct 2021,
+14,c2c_service_management_ui,https://smp-ui.c2c-uat.qualcomm.com/,,,
+15,c2c_resilience_service_api,https://perfreg2.c2c-uat.qualcomm.com/resilience-service/swagger-ui.html#/,2.1.0-SNAPSHOT_2205130728,13th May 2022,release_sprint17_1.0
+16,c2c_command_control_api,https://perfreg2.c2c-uat.qualcomm.com/command-service/swagger-ui.html,1.2.0-SNAPSHOT_2203151408,15th March 2022,develop
+17,c2c_dm_telemetry_persistence_service,https://perfreg2.c2c-uat.qualcomm.com/telemetry-persistence-service/v1/swagger-ui.html,,,
+18,c2c_license_management_c_api,https://perfreg2.c2c-uat.qualcomm.com/lmsc/swagger-ui,3.1.0-SNAPSHOT_2203151037,15th March 2022,develop
+19,c2c_license_management_q_api,https://perfreg2.c2c-uat.qualcomm.com/lmsq/swagger-ui,3.1.0-SNAPSHOT_2203160612,16th March 2022,develop
+20,smp_adapter_api,https://perfreg2.c2c-uat.qualcomm.com/smp-adapter/swagger-ui.html#/,3.1.0-SNAPSHOT_2203150919,15th March 2022,develop
+21,c2c_ota_db_operations_api,https://perfreg2.c2c-uat.qualcomm.com/ota-db-api/swagger-ui.html#/,,,
+22,c2c_partition_service_api,https://perfreg2.c2c-uat.qualcomm.com/partition-service/swagger-ui.html#/,2.2.0-SNAPSHOT_2205130731,13th May 2022,release_sprint18_1.0
+23,c2c_base_cognito_token_generator,https://perfreg2.c2c-uat.qualcomm.com/cognito-token/swagger-ui.html#/,3.1.0-SNAPSHOT_2203151209,15th March 2022,develop
+24,c2c_dm_certificatemanager,https://perfreg2.c2c-uat.qualcomm.com/certificate-manager/swagger-ui.html#/,4.1.0-SNAPSHOT_2203150930,15th March 2022,develop
+25,c2c_base_configserver,https://perfreg2.c2c-uat.qualcomm.com/configserver/swagger-ui.html#/,3.1.0-SNAPSHOT_2205130708,13th May 2022,release_sprint17_1.0
+26,c2c_device_global_operations_api,https://perfreg2.c2c-uat.qualcomm.com/device-global/swagger-ui.html#/,3.1.0-SNAPSHOT_2205131318,13th May 2022,develop
+27,c2c_sota_service_api,https://perfreg2.c2c-uat.qualcomm.com/sota-service/swagger-ui.html#/,1.3.0-SNAPSHOT_2205130737,13th May 2022,suzuki_demo
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+1,IOT,a3a8l4xcirmbjs-ats.iot.us-east-2.amazonaws.com,,,
+,,,,,
+,Database,,,,
+1,MySQL,c2c-use2-perf-reg2-dm-rds-database-mysql-v2.cir3qmuuwiri.us-east-2.rds.amazonaws.com,,,
+2,PSQL,c2c-use2-perf-reg2-dm-rds-database-psql.cir3qmuuwiri.us-east-2.rds.amazonaws.com,,,

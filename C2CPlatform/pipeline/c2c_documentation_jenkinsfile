@@ -1,0 +1,67 @@
+@Library('c2c-jenkins-libs@abhi') _
+
+pipeline {
+    agent any
+    parameters{
+      string(name: 'version_title', defaultValue: "MVP 1.0", description: 'enter Sprint number')
+      string(name: 'version_number', defaultValue: "0.13", description: 'enter version number')
+    }
+    stages {
+        stage('build user') {
+          steps {
+            cleanWs()
+            script{
+              cause = currentBuild.getBuildCauses('hudson.model.Cause$UserIdCause')
+              timeStamp = new Date().format("yyMMddHHmm")
+              echo "userName: ${cause.userName}"
+              echo "timestamp: ${timeStamp}"
+              env.username = cause.userName
+              env.timeStamp = timeStamp
+            }
+          }
+        }
+        stage('git checkout') {
+            steps {
+                dir("main") {
+                    gitCheckout(
+                        url    : "git@github.com:Github-Enterpirse-India/c2c_systemwiki.git",
+                        branch : "main"
+                    )
+                }
+
+                dir("gh-pages") {
+                    gitCheckout(
+                        url    : "git@github.com:Github-Enterpirse-India/c2c_systemwiki.git",
+                        branch : "gh-pages"
+                    )
+                }
+            }
+        }
+        stage('build') {
+          steps {
+              dir("main/C2CPlatform") {
+                sh "chmod +x pipeline/c2c_documentation_publish.sh"
+                sh "chmod +x pipeline/c2c_documentation_build.sh"
+                sh "./pipeline/c2c_documentation_build.sh"
+              }
+          }
+        }
+        stage('git commit') {
+            steps {
+                dir("gh-pages") {
+                  sh "git checkout -b gh-pages"
+                  sh "../main/C2CPlatform/pipeline/c2c_documentation_publish.sh \"${params.version_title}\" ${params.version_number}"
+                  sshagent (credentials: ['abhiSsh']) {
+			sh("git config core.sshCommand \'ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no\'")
+                        sh("git add .")
+                        sh("git commit -m \"commit from pipeline at ${timeStamp} by ${username}\"")
+                        sh('git push --set-upstream origin gh-pages')
+                    }
+                  
+                }
+
+            }
+
+        }
+	}
+}

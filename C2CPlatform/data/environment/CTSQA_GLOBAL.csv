@@ -1,0 +1,13 @@
+Sr. No.,Component Name,EndPoint,Deployed Date,Deployed by,Version,Release notes URL
+1.,c2c_base_cognito_token_generator,http://ad95e4eb24d544121a6f1250da00a889-279115793.us-east-2.elb.amazonaws.com:8080/cognito-token/swagger-ui.html,4.0.0,9th Feb 2022,Abdul,release_Q12022_4.0.0 
+2.,c2c_commcore_routeconfig_api ,http://aff6146ab45cc4899b1453b023b9d86f-571092677.us-east-2.elb.amazonaws.com:8080/routeconfig/swagger-ui.html,4.0.0,9th Feb 2022,Geo,release_Q12022_4.0
+3.,c2c_device_global_operations_api ,http://aeb8c32a63448458b8c6396a30aca527-717354202.us-east-2.elb.amazonaws.com:8080/device-global/swagger-ui.html,4.0.0,9th Feb 2022,Geo,release_Q12022_4.0
+4.,c2c_dm_ certificatemanager ,http://a4c034b92f69d4df0b2e7b56e05097c8-263348544.us-east-2.elb.amazonaws.com:8080/certificate-manager/v1/swagger-ui.html,4.0.0,9th Feb 2022,Geo,release_Q12022_4.0
+5.,c2c_dm_deviceprovisioningqueryservice ,http://a8815c1ebe26f4ba4bd1d493c9d58814-219185218.us-east-2.elb.amazonaws.com:8080/device-provisioning-query-service/v1/swagger-ui.html,4.0.0,9th Feb 2022,Geo,release_Q12022_4.0 
+6.,c2c_dm_deviceregistrationservice ,http://a32e5883255f64c5aaaf5ec91734ad6f-126234070.us-east-2.elb.amazonaws.com:8080/device-registration-service/v1/swagger-ui.html,4.0.0,9th Feb 2022,Geo,release_Q12022_4.0
+7.,c2c_dm_devicerequestprocessor ,http://a2917f4fc2e8d4ff5b438e665cbfe07b-1268025068.us-east-2.elb.amazonaws.com:8080/device-request-processor/v1/swagger-ui.html,4.0.0,9th Feb 2022,Geo,release_Q12022_4.0
+8.,c2c_base_configserver ,http://aebc5501534584255aaf7231954826b5-2028413905.us-east-2.elb.amazonaws.com:8888/configserver/login,3.0.0,9th Feb 2022,Abdul,release_Q12022_3.0.0
+8.,c2c_resilience_service_api ,http://aacbb7bdc355345838192ecf7dcb24ce-433152784.us-east-2.elb.amazonaws.com:8080/resilience-service/swagger-ui.html,2.0.0,9th Feb 2022,Abdul,release_Q12022_2.0.0
+8.,c2c_commcore_c2drequest_api ,http://a5930d1de5049435682a9662ebd3ed48-1685395563.us-east-2.elb.amazonaws.com:8080/c2drequest/swagger-ui.html,4.0.0,9th Feb 2022,Geo,release_Q12022_4.0
+9.,IoT Core Endpoint,	avyq8mqx1md7m-ats.iot.us-west-2.amazonaws.com , , , , 
+10.,Postgres DB,c2c-use2-qa-gbl-dm-rds-psql-db.coacnza0vbnw.us-east-2.rds.amazonaws.com:5432, , , , 

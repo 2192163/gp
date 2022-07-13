@@ -1,0 +1,55 @@
+Sr. No.,Component Name,EndPoint,Current Deployed-Version,Deployed Date,Deployed By, Branch Name,Type
+1,c2c_device_operations_api,https://reg.c2c-test.qualcomm.com/device/swagger-ui.html, 4.0.0_2202211641,21st Feb 2022,Abdul,release_Q12022_4.0.0,API
+2,c2c_dm_deviceprovisioningservice,https://reg.c2c-test.qualcomm.com/device-provisioning-service/v1/swagger-ui.html, 4.0.0_2202211716,21st Feb 2022,Geo,release_Q12022_4.0,API
+3,c2c_commcore_routeconfig_api,https://reg.c2c-test.qualcomm.com/routeconfig/swagger-ui.html, 4.0.0_2202211502,21st Feb 2022,Geo,release_Q12022_4.0,API
+4,c2c_commcore_c2drequest_api,https://reg.c2c-test.qualcomm.com/c2drequest/swagger-ui.html, 4.0.0_2202211502,21st Feb 2022,Geo,release_Q12022_4.0,API
+5,c2c_dm_devicerequestprocessor,https://reg.c2c-test.qualcomm.com/device-request-processor/v1/swagger-ui.html, 4.0.0_2202211714,21st Feb 2022,Geo,release_Q12022_4.0,API
+6,c2c_dm_deviceregistrationservice-regional,https://reg.c2c-test.qualcomm.com/device-registration-service/v1/swagger-ui.html, 4.0.0_2202211715,21st Feb 2022,Geo,release_Q12022_4.0,API
+7,c2c_base_configserver,https://reg.c2c-test.qualcomm.com/configserver/, 3.0.0_2202211351,21st Feb 2022,Abdul,release_Q12022_3.0.0,API
+8,c2c_resilience_service_api,https://reg.c2c-test.qualcomm.com/resilience-service/swagger-ui.html, 2.0.0_2202211625,21st Feb 2022,Abdul,release_Q12022_2.0.0,API
+9,c2c-command-control-api,http://reg.c2c-test.qualcomm.com/command-service/swagger-ui.html ,2.0.0_2202211700,21st Feb 2022,Abdul,release_Q12022_2.0.0,API
+10,c2c-dm-chipset-api,http://reg.c2c-test.qualcomm.com/chipsetapi/swagger-ui.html,3.0.0_2202211542 ,21st Feb 2022,Geo,release_Q12022_4.0,API
+11,c2c-license-management-c-api,http://reg.c2c-test.qualcomm.com/lmsc/swagger-ui ,2.0.0_2202211544,21st Feb 2022,Geo,release_Q12022_4.0.,API
+12,c2c-license-management-q-api,http://reg.c2c-test.qualcomm.com/lmsq/swagger-ui ,2.0.0_2202211544,21st Feb 2022,Geo,release_Q12022_4.0,API
+13,c2c-ota-db-operations-api,http://reg.c2c-test.qualcomm.com/ota-db-api/swagger-ui.html ,2.0.0_2202211658,21st Feb 2022,Abdul,release_Q12022_2.0.0,API
+14,c2c-ota-service-api,http://reg.c2c-test.qualcomm.com/ota-services/swagger-ui.html ,3.0.0_2202211653,21st Feb 2022,Abdul,release_Q12022_3.0.0,API
+15,c2c-partition-service-api,http://reg.c2c-test.qualcomm.com/partition-service/swagger-ui.html ,2.0.0_2202211705,21st Feb 2022,Abdul,release_Q12022_2.0.0,API
+16,c2c-service-management-api,http://reg.c2c-test.qualcomm.com/smp-server/swagger-ui ,1.6_2202221348,21st Feb 2022,Abdul,release_C2C_1.0,API
+17,c2c-service-management-ui,https://smp-ui.c2c-test.qualcomm.com/ ,117,21st Feb 2022,Abdul,release_C2C_1.0,UI
+18,c2c-vehicle-operations-api,http://reg.c2c-test.qualcomm.com/vehicle/swagger-ui.html ,4.0.0_2202211642,21st Feb 2022,Abdul,release_Q12022_4.0.0,API
+19,smp-adapter-api,http://reg.c2c-test.qualcomm.com/smp-adapter/swagger-ui.html ,3.0.0_2202211542,21st Feb 2022,Geo,release_Q12022_4.0,API
+20,c2c_commcore_c2dsender_pro, , 4.0.0_2202211534,21st Feb 2022,Geo,release_Q12022_4.0,Processor
+21,c2c_commcore_msgdispatcher_pro, , 4.0.0_2202211427,21st Feb 2022,Geo,release_Q12022_4.0,Processor
+22,c2c_commcore_msgstorage_pro, , 4.0.0_2202211501,21st Feb 2022,Geo,release_Q12022_4.0,Processor
+23,c2c_resilience_listener_pro, , 3.0.0_2202211620,21st Feb 2022,Abdul,release_Q12022_3.0.0,Processor
+24,c2c_resilience_retry_pro, , 3.0.0_2202211623,21st Feb 2022,Abdul,release_Q12022_3.0.0,Processor
+25,c2c_resilience_query_pro, , 3.0.0_2202211622,21st Feb 2022,Abdul,release_Q12022_3.0.0,Processor
+26,c2c-command-control-pro,,2.0.0_2202211701,21st Feb 2022,Abdul,release_Q12022_2.0.0,Processor
+27,c2c-cop-retry-pro,,2.0.0_2202211543,21st Feb 2022,Geo,release_Q12022_4.0,Processor
+28,c2c-dm-chipsetonboarding-pro,,4.0.0_2202211535,21st Feb 2022,Geo,release_Q12022_4.0,Processor
+29,c2c-license-management-pro,,3.0.0_2202211541,21st Feb 2022,Geo,release_Q12022_4.0,Processor
+30,c2c-lms-license-retry-pro,,2.0.0_2202211543,21st Feb 2022,Geo,release_Q12022_4.0,Processor
+31,c2c-ota-processor-pro,,3.0.0_2202211653,21st Feb 2022,Abdul,release_Q12022_3.0.0,Processor
+32,c2c-state-operation-pro,,4.0.0_2202211644,21st Feb 2022,Abdul,release_Q12022_4.0.0,Processor
+33,c2c-lms-license-health-check-pro,,3.0.0_2202211543,21st Feb 2022,Abdul,release_Q12022_4.0,Processor
+34,c2c_resilience_liquibase_project, , 2.0.0 , 21st Feb 2022,Geo,release_Q12022_2.0.0,Liquibase
+35,c2c_dm_registration_service_regional_db, , 4.0.0 , 21st Feb 2022,Geo,release_Q12022_4.0,Liquibase
+36,c2c_dm_provision_service_db, , 4.0.0 , 21st Feb 2022,Geo,release_Q12022_4.0,Liquibase
+37,c2c_commcore_routeconfig_db, , 4.0.0 , 21st Feb 2022,Geo,release_Q12022_4.0,Liquibase
+38,c2c_commcore_msgstorage_db, , 4.0.0 , 21st Feb 2022,Geo,release_Q12022_4.0,Liquibase
+39,c2c_ota_liquibase_project, , 1.0.0 , 21st Feb 2022,Geo,release_Q12022_1.0.0,Liquibase
+40,c2c_command_liquibase_project, , 1.0.0 , 21st Feb 2022,Geo,release_Q12022_1.0.0,Liquibase
+41,c2c_partition_liquibase_project, , 1.0.0 , 21st Feb 2022,Geo,release_Q12022_1.0.0,Liquibase
+42,c2c_dm_chipsetonboarding_db, , 4.0.0 , 21st Feb 2022,Geo,release_Q12022_4.0,Liquibase
+43,c2c_license_management_db, , 3.0.0 , 21st Feb 2022,Geo,release_Q12022_4.0,Liquibase
+44,c2c_license_management_q_db, , 2.0.0 , 21st Feb 2022,Geo,release_Q12022_4.0.0,Liquibase
+,,,,,,,
+1,IOT component,a2wmamsgqsa3iq-ats.iot.us-west-2.amazonaws.com,,,,,
+,,,,,,,
+1,Aurora PSQL,c2c-analytics-test-instance-cluster.cluster-castoaxbaykb.us-west-2.rds.amazonaws.com      ,,,,,
+2,Aurora PSQL,c2c-analytics-test-instance-cluster.cluster-ro-castoaxbaykb.us-west-2.rds.amazonaws.com ,,,,,
+3,Aurora PSQL,c2c-connectivity-test-instance-1.cluster-castoaxbaykb.us-west-2.rds.amazonaws.com,,,,,
+4,Aurora PSQL,c2c-connectivity-test-instance-1.cluster-ro-castoaxbaykb.us-west-2.rds.amazonaws.com,,,,,
+5,MySQL,c2c-upload-database.castoaxbaykb.us-west-2.rds.amazonaws.com,,,,,
+6,MySQL,c2c-usw2-qa-reg-dm-rds-database-mysql-v2.castoaxbaykb.us-west-2.rds.amazonaws.com     ,,,,,
+7,PostgreSQL,c2c-usw2-qa-reg-dm-rds-database-psql.castoaxbaykb.us-west-2.rds.amazonaws.com ,,,,,
